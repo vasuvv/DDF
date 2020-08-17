@@ -1,0 +1,7 @@
+INFO    2020-07-24 16:46:59,585 [main] base.TestBase  - Log4j.properties file is loaded..
+INFO    2020-07-24 16:46:59,586 [main] base.TestBase  - Configuration file is loaded..
+INFO    2020-07-24 16:47:03,527 [main] base.TestBase  - Chrome browser is instatiated..
+INFO    2020-07-24 16:47:05,908 [main] base.TestBase  - Application is navigated : https://www.facebook.com
+INFO    2020-07-24 16:47:07,574 [main] base.TestBase  - Object Repository file is loaded..
+INFO    2020-07-24 16:47:07,674 [main] base.TestBase  - Inside the login testcase..
+INFO    2020-07-24 16:47:08,986 [main] base.TestBase  - login testcase is executed successfully..

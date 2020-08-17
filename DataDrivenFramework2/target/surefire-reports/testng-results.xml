@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Framework" duration-ms="24044" started-at="2020-08-12T12:37:20Z" finished-at="2020-08-12T12:37:44Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="901" started-at="2020-08-12T12:37:20Z" finished-at="2020-08-12T12:37:21Z">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@6d2a209c]" name="login" duration-ms="864" started-at="2020-08-12T12:37:20Z" data-provider="getData" finished-at="2020-08-12T12:37:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vasuvvsr@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="22985" started-at="2020-08-12T12:37:21Z" finished-at="2020-08-12T12:37:44Z">
+      <class name="testcases.UploadPhotoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.UploadPhotoTest@4690b489]" name="setUp" is-config="true" duration-ms="7010" started-at="2020-08-12T12:37:13Z" finished-at="2020-08-12T12:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="UploadPic(java.lang.String, java.lang.String)[pri:0, instance:testcases.UploadPhotoTest@4690b489]" name="UploadPic" duration-ms="22983" started-at="2020-08-12T12:37:21Z" data-provider="getData" finished-at="2020-08-12T12:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//*[text()='Vasu Vvsr']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Users\Testing\Desktop\Koala.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadPic -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.UploadPhotoTest@4690b489]" name="tearDown" is-config="true" duration-ms="3984" started-at="2020-08-12T12:37:44Z" finished-at="2020-08-12T12:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.UploadPhotoTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Data Driven Framework -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Extent Reports]">
+  <listeners>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="4" name="Test(failed)">
+    <classes>
+      <class name="testNGPrograms.TestCase1">
+        <methods>
+          <include name="startApp"/>
+          <include name="loginApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- testNGPrograms.TestCase1 -->
+      <class name="testNGPrograms.TestCase2">
+        <methods>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- testNGPrograms.TestCase2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Extent Reports] -->

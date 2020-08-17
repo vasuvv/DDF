@@ -1,0 +1,9 @@
+INFO    2020-08-12 18:07:13,787 [main] base.TestBase  - Log4j.properties file is loaded..
+INFO    2020-08-12 18:07:13,788 [main] base.TestBase  - Configuration file is loaded..
+INFO    2020-08-12 18:07:18,065 [main] base.TestBase  - Chrome browser is instatiated..
+INFO    2020-08-12 18:07:20,743 [main] base.TestBase  - Application is navigated : https://www.facebook.com
+INFO    2020-08-12 18:07:20,750 [main] base.TestBase  - Object Repository file is loaded..
+INFO    2020-08-12 18:07:20,785 [main] base.TestBase  - Inside the login testcase..
+INFO    2020-08-12 18:07:21,648 [main] base.TestBase  - login testcase is executed successfully..
+INFO    2020-08-12 18:07:21,812 [main] base.TestBase  - Inside the UploadPhoto testcase..
+INFO    2020-08-12 18:07:44,795 [main] base.TestBase  - UploadPhoto testcase is executed successfully..
