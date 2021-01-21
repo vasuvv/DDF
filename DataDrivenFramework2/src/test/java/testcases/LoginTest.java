@@ -8,6 +8,7 @@ import base.TestBase;
 import utilities.TestUtility;
 
 public class LoginTest extends TestBase {
+	String address;
 	int salary=25000;
 	@Test(dataProvider = "getData")
 	public void login(String email, String pwd) {
