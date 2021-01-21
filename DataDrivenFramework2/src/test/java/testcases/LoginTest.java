@@ -8,7 +8,7 @@ import base.TestBase;
 import utilities.TestUtility;
 
 public class LoginTest extends TestBase {
-
+	int salary=25000;
 	@Test(dataProvider = "getData")
 	public void login(String email, String pwd) {
 		log.info("Inside the login testcase..");
